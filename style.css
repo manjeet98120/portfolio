@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Roboto+Slab&family=Roboto:ital,wght@0,300;1,500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+    background-color: rgb(14, 13, 13);
+
+}
+
+
+
+.hidding{
+    display: none;
+}
+
+.panel{
+    width: 17%;
+    border-top-right-radius: 15px;
+    background-color: rgb(39, 21, 21);
+    padding: 1.4%;
+    border: 2px ridge rgb(54, 54, 54);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+::before,::after{
+    margin-right: 15px;
+}
+
+.section{
+
+    left: 280px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 1;
+}
+
+.logo{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+}
+.logo a{
+    color: var(--text-black-900);
+    font-weight: 300;
+    padding: 15px 20px ;
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: relative;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 1px;
+    border-radius:5px;
+
+}
+a:hover{
+    color:rgb(254, 62, 3);
+    background-color: rgb(71, 72, 72);
+
+}
+
+.navigation{
+    margin-top: 20px;
+}
+
+.navigation li{
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px ridge ;
+    border-color:rgb(254, 62, 3) ;
+
+}
+
+
+
+.navigation li a{
+    padding: 10px 40px;
+    width: 100%;
+    
+}
+
+.body_container{
+    display: flex;
+    height: 100%;
+}
+
+.content{
+    background-color: rgb(14,13,13);
+    width: 100%;
+    border-top-left-radius: 15px;
+    margin-left: 20.05%;
+    border: 2px ridge rgb(41, 40, 40);
+}
+
+
+
+.hire{
+    margin: 30px 5px;
+    color: rgb(254, 62, 3);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hire_me{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px ridge red;
+    border-radius: 8px;
+    background-color: rgb(97, 95, 95);
+}
+
+
+.writing{
+    display: flex;
+    padding: 100px 0 0 5%;
+    width: 90%;
+    border-top-left-radius: 12px;
+}
+
+.pic{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pic img{
+    width: 100%;
+    height: 50%;
+}
+
+.para{
+    width: 100%;
+}
+
+.para h1 span{
+    color: red;
+    font-size: 60px;
+    font-family: 'Clicker Script', cursive;
+}
+.para  span {
+    color: red;
+
+}
+
+
+h1 {
+    font-size: 40px;
+    text-decoration: white;
+}
+
+.para h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-spacing: 0px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+.para h2{
+    font-family: 'roboto', cursive;
+    font-size: 20px;
+    color: white;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.hello{
+    margin-top: 30px;
+    color: rgb(189, 22, 22);
+}
+
+p{
+    margin-top: 30px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: white;
+}
+
+#lii1 :active{
+    color:rgb(254, 62, 3);
+    background-color: rgb(71, 72, 72);
+}
+
+
+#about_container{
+
+    height: 100%;
+}
+
+#home_container{
+    border-radius: 15px;
+    height: 90%;
+    background-color: rgb(14, 13, 13);
+
+}
+
+.about_me{
+    border-radius: 9px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding:40px 0 0 40px;
+    box-shadow: 0px 1px 80px red ;
+    margin-left: 10px;
+    
+}
+.about_me span{
+    font-size: 55px;
+    color: white;
+    font-family: 'Clicker Script', cursive;
+    padding: 0 20px;
+    border-bottom: 3px ridge  red;
+    border-radius: 19px;
+
+
+}
+
+.writeup{
+    margin: 50px;
+    color: white;
+    font-family: sans-serif ;
+}
+.writeup span{
+    color: red;
+}
+
+.main_content{
+    display: flex;
+    width: 100%;
+}
+
+.data{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 60%;
+    background-color: rgb(14, 13, 13);
+}
+
+.data div{
+    width: 100%;
+    margin: 10px 10px;
+    display: flex;
+
+
+    
+}
+
+.data span {
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+
+.data div div{
+    width: 50%;
+}
+
+.data h2{
+    border-bottom: 3px ridge rgb(98, 2, 2);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.data a{
+    background-color: rgb(23, 23, 23);
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 1px ridge red;
+    margin: 40px 0 0 0 ;
+
+}
+
+.levels{
+    color: white;
+    width: 45%;
+    background-color: rgb(14, 13, 13);
+
+}
+
+.CV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 13, 13);
+}
+.CV a{
+    box-shadow: 0px 2px 4px red ;
+}
+
+
+.progress{
+    width: 100%;
+    height: 70px;
+}
+
+.slider{
+    width: 86%;
+    height: 7px;
+    background-color: red;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.education{
+    background-color: rgb(14, 13, 13);
+    padding-left: 10px;
+}
+
+.card{
+    background-color: rgb(14, 13, 13);
+    margin: 6% 19%;
+    color: white;
+    height: 200px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 5px ridge rgb(91, 8, 77);
+    border-top: 7px;
+
+}
+
+.header{
+    height: 28px;
+    background-color: rgb(39, 1, 1);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    border-radius: 9px;
+}
+
+
+
+.info{
+    padding: 10px;
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.topic{
+    padding-left: 15%;
+    width: 70%;
+    font-size: 20px;
+    box-shadow: 0px 1px 80px rgb(255, 3, 3) ;
+}
+
+.date{
+    font-size: 18px;
+    width: 30%;
+    box-shadow: 0px 1px 80px red ;
+}
+
+
+.decoration{
+    color:rgb(254, 62, 3);
+}
+
+.anti_decoration{
+    text-decoration: none;
+    color: white;
+    border-radius: 1px;
+    border-radius:5px;
+}
+
+#contact_container{
+    color: white;
+    margin: 10px;
+    height: 97%;
+    background-color: rgb(14, 13, 13);
+}
+#links_container{
+    color: white;
+    margin: 10px;
+    height: 100%;
+}
+#time_container{
+    color: white;
+    margin: 10px;
+    height: 100%;
+
+}
+
+.soon{
+    background-color: rgb(41, 35, 35);
+    border-radius: 10px;
+    width: 60%;
+    height: 50%;
+    box-shadow: 0px 1px 80px red ;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#projects_container{
+    color: white;
+    margin: 10px;
+    height: 100%;
+}
+
+.common{
+    width: 90px;
+    height: 90px;
+    border-radius: 190px;
+    padding-left: 3px;
+    margin: 10px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.fa{
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.mb-4{
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-weight: 10;
+    cursor: pointer;
+}
+
+.box{
+    width: 12%;
+    border-radius: 10px;
+}
+
+.part{
+    width: 95%;
+    height: 25%;
+    background-color: rgb(67, 66, 66);
+    border-radius: 10px;
+    display: flex;
+    margin: 20px 10px ;
+}
+
+.information{
+    width: 100%;
+}
+
+
+.handles{
+    width: 100%;
+    height: 25px;
+    border-radius: 7px;
+
+    display: flex;
+}
+
+.handles div{
+    width: 33%;
+    height: 100%;
+    margin: 1px;
+    border-radius: 7px;
+    background-color: green;
+    border: 1px ridge rgb(111, 135, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nope{
+    margin-top: 3px;
+    height: 77%;
+    border-radius: 7px;
+    width: 100%;
+    display: flex;
+}
+
+.nope div{    width: 33%;
+    height:100% ;
+    margin-right: 1px;
+    border: 1px ridge rgb(96, 94, 94);
+    border-radius: 7px;
+}
+
+.boxx{
+    margin: 10px 10%;
+}
+
+.projects_container{
+    height: 90%;
+}
+
+.project{
+    padding: 10px;
+}
+
+.first,.second{
+    background-color: blue;
+    width: 69%;
+    height: 300px;
+    padding: 10px;
+    margin-left: 10px 0 10px 15%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px red ;
+    color: white;
+}
+
+
+.social{
+    width: 95%;
+    height: 25%;
+    background-color: rgb(67, 66, 66);
+    border-radius: 10px;
+    display: flex;
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
